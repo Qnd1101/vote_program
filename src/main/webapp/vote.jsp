@@ -15,7 +15,7 @@
 		}
 		else if(!document.data.v_name.value) {
 			alert("성명이 입력되지 않았습니다.");
-			data.n_name.focus();
+			data.v_name.focus();
 			return false;
 		}
 		else if (!document.data.m_no.value) {
